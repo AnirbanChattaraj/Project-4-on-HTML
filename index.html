@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Simple HTML Project</title>
+</head>
+<body>
+  <h1>Simple HTML Project - Forms and Audio</h1>
+
+  <h2>Audio Player</h2>
+  <audio controls>
+    <source src="sample.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>Sample Form</h2>
+  <form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="role">Role:</label><br>
+    <select id="role" name="role">
+      <option value="student">Student</option>
+      <option value="developer">Developer</option>
+      <option value="designer">Designer</option>
+    </select><br><br>
+
+    <label>Preferred Contact:</label><br>
+    <input type="radio" id="contact-email" name="contact" value="email">
+    <label for="contact-email">Email</label>
+    <input type="radio" id="contact-phone" name="contact" value="phone">
+    <label for="contact-phone">Phone</label><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
